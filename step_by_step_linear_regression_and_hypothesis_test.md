@@ -175,8 +175,8 @@ R² = SSR / SST = 18500 / 44500 ≈ 0.4157
 - s = √MSE
 
 ### Hypothesis Test on Slope
-- s_{b₁} = s / √SSₓₓ
-- t = b₁ / s_{b₁} (for H₀: β₁ = 0)
+- SE = s / √SSₓₓ
+- t = b₁ / SE (for H₀: β₁ = 0)
 
 ### Coefficient of Determination
 - R² = 1 - SSE / SSᵧᵧ (or SSR / SST)
@@ -190,8 +190,8 @@ For testing H₀: β₁ = 0, you need:
 1. SSE = Σ(Yᵢ - Ŷᵢ)²
 2. MSE = SSE / (n-2)
 3. s = √MSE
-4. s_{b₁} = s / √SSₓₓ
-5. t = b₁ / s_{b₁}
+4. SE = s / √SSₓₓ
+5. t = b₁ / SE
 
 ---
 
